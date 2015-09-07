@@ -124,5 +124,7 @@ function LW2LP(LW, R){
         LP[i] = LW[i] - 8;
       }
     }
+    
+    return LP;
   }
 }
